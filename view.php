@@ -19,8 +19,8 @@ include_once 'dbconfig.php';
 <label>Uploaded files</label>
 </div>
 <div id="body">
-<a href="logon-home.php"><img src="img/home.png" width="60px" height="60px" alt="home.png" align="left"/></a>
-<a href="index.php"><img src="img/back.png" width="60px" height="60px" alt="home.png" align="left"/></a>
+<a href="logon-home.php"><img src="img/home.PNG" width="60px" height="60px" alt="home.PNG" align="left"/></a>
+<a href="index.php"><img src="img/back.PNG" width="60px" height="60px" alt="home.PNG" align="left"/></a>
 
 	<table width="80%" border="1">
     <tr>
@@ -52,19 +52,19 @@ include_once 'dbconfig.php';
                 $ext = pathinfo($name, PATHINFO_EXTENSION);
                 if($ext=="doc"||$ext=="docx")
 				{
-					echo '<img src="img\word.png" alt="word.png" width="40px" height="40px"/>';
+					echo '<img src="img\word.PNG" alt="word.PNG" width="40px" height="40px"/>';
 				
 					
 				}
 
 				else if($ext=="pdf"||$ext=="PDF")
 				{
-					echo '<img src="img\pdf.png" alt="word.png" width="40px" height="40px"/>';
+					echo '<img src="img\pdf.PNG" alt="word.PNG" width="40px" height="40px"/>';
 				}
 
 				else if($ext=="xls"||$ext=="xlsx"||$ext=="XLSX"||$ext=="XLS")
 				{
-					echo '<img src="img\excel.png" alt="word.png" width="40px" height="40px"/>';
+					echo '<img src="img\excel.PNG" alt="word.PNG" width="40px" height="40px"/>';
 
 				}
 				
@@ -72,11 +72,11 @@ include_once 'dbconfig.php';
 
 			else if($ext=="jpeg"||$ext=="jpg"||$ext=="png"||$ext=="JPEG"||$ext=="JPG"||$ext=="PNG"||$ext=='gif'||$ext=='GIF')
 			{
-		       		echo '<img src="img/photo.png" alt="word.png" width="40px" height="40px"/>';
+		       		echo '<img src="img/photo.PNG" alt="word.PNG" width="40px" height="40px"/>';
 	       	}
             
             else{
-            	echo '<img src="img\misc.png" alt="word.png" width="40px" height="40px"/>';
+            	echo '<img src="img\misc.png" alt="word.PNG" width="40px" height="40px"/>';
 
             }    
 
