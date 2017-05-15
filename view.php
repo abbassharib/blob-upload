@@ -72,7 +72,7 @@ include_once 'dbconfig.php';
 
 			else if($ext=="jpeg"||$ext=="jpg"||$ext=="png"||$ext=="JPEG"||$ext=="JPG"||$ext=="PNG"||$ext=='gif'||$ext=='GIF')
 			{
-		       		echo '<img src="img/photo.PNG" alt="word.PNG" width="40px" height="40px"/>';
+		       		echo '<img src="img/photo.png" alt="word.PNG" width="40px" height="40px"/>';
 	       	}
             
             else{
