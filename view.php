@@ -19,7 +19,7 @@ include_once 'dbconfig.php';
 <label>Uploaded files</label>
 </div>
 <div id="body">
-<a href="logon-home.php"><img src="img/home.PNG" width="60px" height="60px" alt="home.PNG" align="left"/></a>
+<a href="index.php"><img src="img/home.PNG" width="60px" height="60px" alt="home.PNG" align="left"/></a>
 <a href="index.php"><img src="img/back.PNG" width="60px" height="60px" alt="home.PNG" align="left"/></a>
 
 	<table width="80%" border="1">
